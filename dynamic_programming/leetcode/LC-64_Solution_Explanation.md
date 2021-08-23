@@ -14,7 +14,7 @@ from top to bottom. Then we build the inside by adding the value at that specifi
 or to the left of the current index. Our answer is at the bottom right. 
 Here is a graphic using the input grid `[ [1, 3, 1], [1, 5, 1], [4, 2, 1] ]` as an example:
 
-![lc-64-solution-explanation](./assets/lc-64-solution-explanation.PNG)
+![lc-64-solution-explanation](./assets/lc-64-solution-explanation.png)
 
 ---
 ### Java Solution
