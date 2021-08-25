@@ -36,7 +36,7 @@ public class BottomUpSolution {
  */
 import java.util.Deque;
 import java.util.LinkedList;
-import jave.util.List;
+import java.util.List;
 
 public class TopDownSolutionOne {
     public int minimumTotal(List<List<Integer>> triangle) {
@@ -66,7 +66,7 @@ public class TopDownSolutionOne {
 /**
  *  Top-Down: Memoization.
  */
-import jave.util.List;
+import java.util.List;
 
 public class TopDownSolutionTwo {
     public int minimumTotal(List<List<Integer>> triangle) {

@@ -1,5 +1,5 @@
 # Dynamic Programming | Number Tower
-# [LC-120 : Triangle](https://leetcode.com/problems/triangle/)
+# [LC-931 : Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)
 
 We are given a triangle. We start at the top of the triangle and want to move to the bottom with minimum possible sum. We can either move down to the same index i or to the index i + 1.
 
