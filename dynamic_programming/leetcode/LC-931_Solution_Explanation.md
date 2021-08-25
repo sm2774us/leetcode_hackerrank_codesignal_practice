@@ -31,7 +31,9 @@ N = length of side of matrix
 ### 1. Recursion
 Time complexity: `O(3^N)`
 Space complexity: `O(N)`
-
+---
+#### Java Solution
+---
 ```java
 class Solution {
     public int minFallingPathSum(int[][] matrix) {
@@ -74,7 +76,9 @@ class Solution {
 ### 2. Memoization (Top-Down)
 Time complexity: `O(N^2)`
 Space complexity: `O(N^2)`
-
+---
+#### Java Solution
+---
 ```java
 class Solution {
     public int minFallingPathSum(int[][] matrix) {
@@ -121,7 +125,9 @@ class Solution {
     }
 }
 ```
-
+---
+#### Python Solution
+---
 ```python
 import functools
 from typing import List
@@ -157,7 +163,9 @@ class Solution:
             mini = min(mini,helper(A,0,i)) # you can start from any column of zero row 
         return mini
 ```
-
+---
+#### JavaScript Solution
+---
 ```JavaScript
 /**
  * @param {number[][]} A
@@ -220,7 +228,9 @@ let dfs = function(i,j,val,A,minVal,dp){
 ### 3. Tabulation (Bottom-Up)
 Time complexity: `O(N^2)`
 Space complexity: `O(N^2)`
-
+---
+#### Java Solution
+---
 ```java
 class Solution {
     public int minFallingPathSum(int[][] matrix) {
@@ -265,7 +275,9 @@ class Solution {
     }
 }
 ```
-
+---
+#### Python Solution
+---
 ```python
 class Solution:
     def minFallingPathSum(self, matrix: List[List[int]]) -> int:
@@ -290,7 +302,9 @@ class Solution:
                 dp[i][j] = min(top_left, top, top_right) + A[i][j]
         return min(dp[-1][:])
 ```
-
+---
+#### JavaScript Solution
+---
 ```JavaScript
 /**
  *  Why is this necessary ?
@@ -324,7 +338,9 @@ var minFallingPathSum = function(matrix) {
 ### 4. Tabulation (Bottom-Up) with Space Optimization
 Time complexity: `O(N^2)`
 Space complexity: `O(N)`
-
+---
+#### Java Solution
+---
 ```java
 class Solution {
     public int minFallingPathSum(int[][] matrix) {
@@ -372,7 +388,9 @@ class Solution {
     }
 }
 ```
-
+---
+#### Python Solution
+---
 ```python
 class Solution:
     def minFallingPathSum(self, A: List[List[int]]) -> int:
@@ -390,7 +408,9 @@ class Solution:
                     
         return min(dp)
 ```
-
+---
+#### JavaScript Solution
+---
 ```JavaScript
 var minFallingPathSum = function(A) {
     const size = A.length;
